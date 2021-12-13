@@ -1,0 +1,104 @@
+for i,v in pairs(game.Workspace:GetDescendants()) do 
+	if v:IsA("Part") then 
+		
+		if v.Color == Color3.fromRGB(40, 127, 71) then 
+			v.Material = Enum.Material.Grass 
+		end
+		
+		if v.Color == Color3.fromRGB(229, 228, 223) then 
+			v.Material = Enum.Material.Concrete 
+		end
+		
+		if v.Color == Color3.fromRGB(75, 151, 75) then 
+			v.Material = Enum.Material.Grass 
+		end
+		
+		if v.Color == Color3.fromRGB(215, 197, 154) then 
+			v.Material = Enum.Material.Sand 
+		end
+		
+		if v.Color == Color3.fromRGB(27, 42, 53) then 
+			v.Material = Enum.Material.Slate 
+		end
+		
+		if v.Color == Color3.fromRGB(105, 64, 40) then 
+			v.Material = Enum.Material.WoodPlanks
+		end
+		
+		if v.Color == Color3.fromRGB(160, 95, 53) then 
+			v.Material = Enum.Material.Wood
+		end
+		
+		if v.Color == Color3.fromRGB(218, 133, 65) then 
+			v.Material = Enum.Material.Wood
+		end
+		
+		if v.Color == Color3.fromRGB(124, 92, 70) then 
+			v.Material = Enum.Material.Wood
+		end
+		
+		if v.Color == Color3.fromRGB(180, 210, 228) then 
+			v.Material = Enum.Material.SmoothPlastic
+		end
+		
+		if v.Color == Color3.fromRGB(245, 205, 48) then 
+			v.Material = Enum.Material.SmoothPlastic
+		end
+		
+		if v.Color == Color3.fromRGB(253, 234, 141) then 
+			v.Material = Enum.Material.SmoothPlastic
+		end
+		
+		if v.Color == Color3.fromRGB(75, 151, 75) then 
+			v.Material = Enum.Material.Grass
+		end
+		
+		if v.Color == Color3.fromRGB(164, 189, 71) then 
+			v.Material = Enum.Material.Grass
+		end
+		
+		if v.Color == Color3.fromRGB(163, 162, 165) then 
+			v.Material = Enum.Material.Concrete
+		end
+		
+		if v.Color == Color3.fromRGB(99, 95, 98) then 
+			v.Material = Enum.Material.Concrete
+		end
+		
+		if v.Color == Color3.fromRGB(226, 155, 64) then 
+			v.Material = Enum.Material.SmoothPlastic
+		end
+		
+		if v.Color == Color3.fromRGB(13, 105, 172) then 
+			v.Material = Enum.Material.SmoothPlastic
+		end
+		
+		if v.Color == Color3.fromRGB(149, 121, 119) then 
+			v.Material = Enum.Material.Concrete
+		end
+		
+		if v.Color == Color3.fromRGB(109, 110, 108) then 
+			v.Material = Enum.Material.Concrete
+		end
+		
+		if v.Color == Color3.fromRGB(196, 40, 28) then 
+			v.Material = Enum.Material.WoodPlanks
+		end
+		
+		if v.Color == Color3.fromRGB(39, 70, 45) then 
+			v.Material = Enum.Material.Grass
+		end
+		
+		if v.Color == Color3.fromRGB(128, 187, 219) then 
+			v.Material = Enum.Material.SmoothPlastic
+		end
+		
+		if v.Color == Color3.fromRGB(110, 153, 202) then 
+			v.Material = Enum.Material.SmoothPlastic
+		end
+		
+		if v.Color == Color3.fromRGB(161, 196, 140) then 
+			v.Material = Enum.Material.Grass
+		end
+	end 
+end
